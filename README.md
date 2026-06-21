@@ -1,9 +1,9 @@
 # Blinkit Data Analysis
 
-[![Open Notebook](https://img.shields.io/badge/Open-Blinkit_data_analysis.ipynb-blue?style=for-the-badge)](Blinkit_data_analysis.ipynb) [![Open CSV File](https://img.shields.io/badge/Open-blinkit_data.csv-brightgreen?style=for-the-badge)](blinkit_data.csv)
+[![Open Notebook](https://img.shields.io/badge/Open-Blinkit_data_analysis.ipynb-blue?style=for-the-badge)](Blinkit_data_analysis.ipynb) [![Open CSV File](https://img.shields.io/badge/Open-blinkit_data.csv-blue?style=for-the-badge)](blinkit_data.csv)
 
 ## 📌 Project Overview
-This repository contains the `Blinkit_data_analysis.ipynb` notebook, which performs exploratory data analysis on the Blinkit retail dataset using Python. The analysis covers data cleaning, KPI calculation, and visualizations that highlight sales patterns across item categories, outlet attributes, and fat-content segments.
+This repository contains the `Blinkit_data_analysis.ipynb` notebook, which performs exploratory data analysis on the Blinkit retail dataset using Python. The analysis covers data cleaning, KPI calculation, visualization, and actionable insights to help retail decision-making.
 
 ## 📈 Executive Summary
 The notebook analyzes 8,523 Blinkit records and reveals these main findings:
@@ -13,15 +13,20 @@ The notebook analyzes 8,523 Blinkit records and reveals these main findings:
 - **Outlet Establishment Year** shows sales trends that can guide expansion planning.
 
 ## 📚 Table of Contents
-- [Project Overview](#📌-project-overview)
-- [Executive Summary](#📈-executive-summary)
-- [Problem Statement](#⚠️-problem-statement)
-- [Dataset Explanation](#📊-dataset-explanation)
-- [Technical Stack](#🛠️-technical-stack)
-- [Quick Start](#🚀-quick-start)
-- [Project Structure](#📂-project-structure)
-- [Key Insights](#✅-key-insights)
-- [Author](#✍️-author)
+- [Project Overview](#project-overview)
+- [Executive Summary](#executive-summary)
+- [Problem Statement](#problem-statement)
+- [Dataset Explanation](#dataset-explanation)
+  - [Dataset fields](#dataset-fields)
+  - [Data cleaning step](#data-cleaning-step)
+- [Technical Stack](#technical-stack)
+- [Quick Start](#quick-start)
+  - [Prerequisites](#prerequisites)
+  - [Run the analysis](#run-the-analysis)
+- [Project Structure](#project-structure)
+- [Visual Preview](#visual-preview)
+- [Key Insights](#key-insights)
+- [Author](#author)
 
 ## ⚠️ Problem Statement
 This analysis answers key business questions such as:
